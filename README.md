@@ -1,12 +1,35 @@
 # P1PRIA
 P1.0 Chamada a API e serialización JSON
 Neste exercicio utilizando UnityWebRequest, JSONUtility e corutinas deberás chamar á API:
+___
 
 https://opentdb.com/
 
 Solicitando 10 preguntas.
 
 Esta API devolve un JSON que deberás serializar, creando as clases que coincidan coa estructura do JSON.
+
+### JSON
+~~~
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Entertainment: Video Games",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "In the Kingdom Hearts series, which is not an optional boss you can fight?",
+            "correct_answer": "Master Yen Sid",
+            "incorrect_answers": [
+                "Sephiroth",
+                "Julius",
+                "Kurt Zisa"
+            ]
+        }
+    ]
+}
+~~~
+___
 
 Crea a variable cos datos como un atributo público do script principal. Imprime na consola o número de preguntas solicitadas e 4 datos da primeira pregunta.
 
