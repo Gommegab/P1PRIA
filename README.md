@@ -12,8 +12,8 @@ Crea a variable cos datos como un atributo público do script principal. Imprime
 
 Entregables:
 
-### Enlace ao repositorio GitHub co proxecto
-1. Avaliarase o código que esté no último commit da rama main
-2. O fluxo de traballo será na rama develop, únicamente engadindo contido a esta rama mediante PRs de outras ramas
-3. É necesario utilizar git ao longo do tempo, non se admitirá un único commit a última hora nin todos os commits no último día ás presas. Mellor ir equivocándose e cambiando cousas que subir todo á última hora.
-### Os 3 ficheiros .cs do proxecto (Script principal, clase da resposta, clase da pregunta)
+* ### Enlace ao repositorio GitHub co proxecto
+  1. Avaliarase o código que esté no último commit da rama main
+  2. O fluxo de traballo será na rama develop, únicamente engadindo contido a esta rama mediante PRs de outras ramas
+  3. É necesario utilizar git ao longo do tempo, non se admitirá un único commit a última hora nin todos os commits no último día ás presas. Mellor ir equivocándose e cambiando cousas que subir todo á última hora.
+* ### Os 3 ficheiros .cs do proxecto (Script principal, clase da resposta, clase da pregunta)
