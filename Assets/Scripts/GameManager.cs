@@ -7,11 +7,13 @@ public class GameManager : MonoBehaviour
 {
     public Question question;
     public int solicitadas=10;
+    private  string api;
     private Questions questions;
 
     void Awake()
     {
-         StartCoroutine(GetQuestions($"https://opentdb.com/api.php?amount={solicitadas}"));
+        api=$"https://opentdb.com/api.php?amount={solicitadas}";
+         StartCoroutine(GetQuestions(api));
     }
     
     IEnumerator GetQuestions(string uri)
@@ -27,6 +29,7 @@ public class GameManager : MonoBehaviour
             {
                 Debug.Log("No se puede conectar con la api");
             }
+            
         }
     }
 
